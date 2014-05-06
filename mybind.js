@@ -22,5 +22,6 @@ Function.prototype.myBind = function myBind (obj) {
   };
 }
 
+console.log(cat.age);
 times(10, cat.ageOneYear.myBind(cat));
 console.log(cat.age);
